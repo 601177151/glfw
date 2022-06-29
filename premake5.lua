@@ -36,6 +36,7 @@ project "GLFW"
             "src/osmesa_context.c"
         }
 
+
 		defines 
 		{ 
             "_GLFW_WIN32",
