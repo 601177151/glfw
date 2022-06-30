@@ -1,5 +1,6 @@
 project "GLFW"
     kind "StaticLib"
+    
     language "C"
     
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
@@ -41,6 +42,7 @@ project "GLFW"
             "src/egl_context.c",
             "src/osmesa_context.c"
         }
+
 
 		defines 
 		{ 
